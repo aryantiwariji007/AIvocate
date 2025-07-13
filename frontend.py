@@ -3,7 +3,7 @@ from rag_pipeline import answer_query,retrieve_docs,llm_model
 
 #Step1: Setup Upload PDF functionality
 import streamlit as st
-
+st.header("Welcome to AI Vocate")
 uploaded_file=st.file_uploader("Upload PDF",type="pdf",accept_multiple_files=True)
 
 
